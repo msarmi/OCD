@@ -1,0 +1,71 @@
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\bin\Debug\OneClickDeploy.exe
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\bin\Debug\OneClickDeploy.pdb
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.csprojResolveAssemblyReference.cache
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\App.g.cs
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy_MarkupCompile.cache
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.g.resources
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.Properties.Resources.resources
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.csproj.GenerateResource.Cache
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.exe
+c:\users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.pdb
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.dll
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.pdb
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.xml
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\App.baml
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\MainWindow.g.cs
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy_MarkupCompile.lref
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\MainWindow.baml
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\View\CortarSettingsView.baml
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\View\CopiarSettingsView.baml
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\View\CortarSettingsView.g.cs
+C:\Users\msarmiento\documents\visual studio 2013\Projects\OneClickDeploy\OneClickDeploy\obj\Debug\View\CopiarSettingsView.g.cs
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.exe
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.pdb
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\bin\Debug\OneClickDeploy.exe
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\bin\Debug\OneClickDeploy.pdb
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.dll
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.pdb
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.xml
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\App.baml
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\MainWindow.g.cs
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\App.g.cs
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy_MarkupCompile.cache
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy_MarkupCompile.lref
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\MainWindow.baml
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.g.resources
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.Properties.Resources.resources
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.csproj.GenerateResource.Cache
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\View\CopyView.baml
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\View\CopyView.g.cs
+C:\Users\msarmiento\Source\Repos\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.csprojResolveAssemblyReference.cache
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\bin\Debug\OneClickDeploy.exe
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\bin\Debug\OneClickDeploy.pdb
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.dll
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.pdb
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\bin\Debug\MahApps.Metro.xml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.csprojResolveAssemblyReference.cache
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\BuildView.baml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\CmdView.baml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\CopyView.baml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\App.baml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\MainWindow.g.cs
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\BuildView.g.cs
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\CmdView.g.cs
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\CopyView.g.cs
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\App.g.cs
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy_MarkupCompile.cache
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy_MarkupCompile.lref
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\MainWindow.baml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.g.resources
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.Properties.Resources.resources
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.csproj.GenerateResource.Cache
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.exe
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\OneClickDeploy.pdb
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\DownloadTfsView.baml
+C:\Users\JONATAN\Desktop\OneClickDeploy\OneClickDeploy\obj\Debug\View\DownloadTfsView.g.cs

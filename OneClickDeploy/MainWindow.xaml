@@ -1,0 +1,87 @@
+﻿<Controls:MetroWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+		xmlns:ViewModel="clr-namespace:OneClickDeploy.ViewModel"
+		xmlns:View="clr-namespace:OneClickDeploy.View"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"  x:Class="OneClickDeploy.MainWindow"
+		Title="Mi Amigo Robot" Height="555.896" Width="994.866" Icon="Images/Robot.png">
+
+	<Window.Resources>
+		<ViewModel:TaskFlowViewModel x:Key="taskFlowViewModel" />
+		<DataTemplate DataType="{x:Type ViewModel:CopyViewModel}">
+			<View:CopyView/>
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type ViewModel:CmdViewModel}">
+			<View:CmdView/>
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type ViewModel:BuildViewModel}">
+			<View:BuildView/>
+		</DataTemplate>
+		<DataTemplate DataType="{x:Type ViewModel:DownloadTfsViewModel}">
+			<View:DownloadTfsView/>
+		</DataTemplate>
+	</Window.Resources>
+	<Grid DataContext="{StaticResource taskFlowViewModel}">
+		<TabControl Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="114" VerticalAlignment="Top" Width="Auto">
+			<TabItem Header="Archivo">
+				<Grid Background="#FFE5E5E5">
+					<Controls:Tile Margin="4,0,908,0" Height="Auto" Width="Auto" Command="{Binding OpenProject}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+						<Image Source="Images/Open Folder-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+					</Controls:Tile>
+					<Controls:Tile Margin="59,0,853,0" Height="Auto" Width="Auto" Command="{Binding SaveProject}" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" Background="#CC119EDA" >
+						<Image Source="Images/Save-02-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="None" RenderTransformOrigin="3.818,0.39"/>
+					</Controls:Tile>
+				</Grid>
+			</TabItem>
+			<TabItem Header="Edición">
+				<Grid Background="#FFE5E5E5">
+					<Controls:Tile Margin="10,0,902,0" Height="Auto" Width="Auto" Command="{Binding AddCopy}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+						<Image Source="Images/Copy-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+					</Controls:Tile>
+					<Controls:Tile Margin="65,0,847,0" Height="Auto" Width="Auto" Command="{Binding AddCmd}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+						<Image Source="Images/Source Code-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+					</Controls:Tile>
+					<Controls:Tile Margin="121,0,791,0" Height="Auto" Width="Auto" Command="{Binding AddBuild}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+						<Image Source="Images/Brick-02-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+					</Controls:Tile>
+					<Controls:Tile Margin="177,0,735,0" Height="Auto" Width="Auto" Command="{Binding AddDownloadTfs}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+						<Image Source="Images/Import-02-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+					</Controls:Tile>
+                    <Controls:Tile Margin="487,0,425,0" Height="Auto" Width="Auto" Command="{Binding RemoveTask}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+                        <Image Source="Images/Trash Can1-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+                    </Controls:Tile>
+                </Grid>
+			</TabItem>
+			<TabItem Header="Ejecución">
+				<Grid Background="#FFE5E5E5">
+					<Controls:Tile Margin="10,0,902,0" Height="Auto" Width="Auto" Command="{Binding PlayProject}" Background="#CC119EDA" TitleFontSize="13" Controls:ButtonHelper.CornerRadius="50" TiltFactor="1" >
+						<Image Source="Images/Media Play1-WF.png" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+					</Controls:Tile>
+				</Grid>
+			</TabItem>
+		</TabControl>       
+		<ListView x:Name="lvTareas" MinHeight="50" ItemsSource="{Binding Tareas}" Margin="10,119,440,10" SelectedIndex="{Binding SelectedIndex}">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextBlock Padding="10">
+						<TextBlock.InputBindings>
+							<MouseBinding Gesture="LeftClick" Command="{Binding ShowDetail}"></MouseBinding>
+						</TextBlock.InputBindings>
+						<TextBlock.Text>
+							<MultiBinding StringFormat="{}{0} - {1}">
+								<Binding Path="Id" />
+								<Binding Path="Description" />
+							</MultiBinding>
+						</TextBlock.Text>
+					</TextBlock>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+		<Controls:Flyout Name="FlyOutDetalle" IsOpen="{Binding FlyoutOpen}" Header="Detalle de la tarea" Position="Right" Width="435" Opacity="0.75" Background="Black" Foreground="White" CloseButtonIsCancel="True">
+			<Grid>
+				<ContentControl Content="{Binding ElementName=lvTareas, Path=SelectedItem}"/>
+			</Grid>
+		</Controls:Flyout>
+	</Grid>
+</Controls:MetroWindow>
